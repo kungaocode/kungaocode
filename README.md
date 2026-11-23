@@ -1,6 +1,3 @@
-Projects and Experiments
-简体中文
-
 My goal is to match compute to the task. I start with rules, retrieval, or smaller models for well-defined steps and reserve more capable models for complex reasoning, multimodal understanding, and synthesis. I compare quality, latency, and cost to decide where extra compute is worth spending.
 Model efficiency and multimodal agents
 - Teacher–Student Chinese Sentiment Analysis · Used teacher-generated labels to fine-tune a 4B student with LoRA. On 200 human-labeled held-out reviews, the student reached 0.771 macro-F1, compared with 0.764 for the teacher and 0.565 for TF-IDF + LinearSVC. Its estimated API cost was about one-sixth of the teacher’s.
@@ -15,7 +12,6 @@ Research tools and reference implementations
 - Concept Lab · Runnable experiments in computer science, machine learning, and AI infrastructure, including CPU demonstrations of decoding, batching, and KV-cache costs.
 - Cryptographic Algorithm Implementations · C implementations of AES, SM3, SM4, RSA, and ElGamal with correctness tests, benchmarks, and lab notes.
 - DSH Fairy Mode · A DeepSeek Harness extension based on an upstream project, with an appearance toggle, persona controls, reference prompts, web search, and optional read-aloud.
-简体中文
 我希望让每一份算力都匹配它要完成的任务，把好钢用在刀刃上。
 
 任务边界清楚时，我优先考虑规则、检索和轻量模型。遇到复杂推理、跨模态理解或需要综合判断的环节，再调用更强的模型。我希望用同一组评测比较结果质量、延迟和成本，判断哪些地方值得投入更多算力。
@@ -31,19 +27,4 @@ AI 安全与系统防御
 - 论文文库 · 知识向量库 · 论文文库提供双语论文索引和研究分析界面。向量库负责把文档增量入库，保留可追溯的来源，并结合关键词和向量检索。
 - Concept Lab · 把计算机基础、机器学习、深度学习和 AI 基础设施写成可运行的小实验，包括在 CPU 上演示解码、批处理和 KV 缓存的资源开销。
 - 密码算法实现与性能分析 · 用 C 实现 AES、SM3、SM4、RSA 和 ElGamal，附正确性测试、性能基准和实验手册。
-- DSH Fairy Mode · 基于上游项目开发的 DeepSeek Harness 扩展。我增加了界面装饰开关、聊天语气控制、语录参考、联网检索和可选朗读。## Hi there 👋
-
-<!--
-**kungaocode/kungaocode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- DSH Fairy Mode · 基于上游项目开发的 DeepSeek Harness 扩展。我增加了界面装饰开关、聊天语气控制、语录参考、联网检索和可选朗读。
