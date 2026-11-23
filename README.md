@@ -12,8 +12,9 @@ Research tools and reference implementations
 - Concept Lab · Runnable experiments in computer science, machine learning, and AI infrastructure, including CPU demonstrations of decoding, batching, and KV-cache costs.
 - Cryptographic Algorithm Implementations · C implementations of AES, SM3, SM4, RSA, and ElGamal with correctness tests, benchmarks, and lab notes.
 - DSH Fairy Mode · A DeepSeek Harness extension based on an upstream project, with an appearance toggle, persona controls, reference prompts, web search, and optional read-aloud.
-我希望让每一份算力都匹配它要完成的任务，把好钢用在刀刃上。
 
+
+我希望让每一份算力都匹配它要完成的任务，把好钢用在刀刃上。
 任务边界清楚时，我优先考虑规则、检索和轻量模型。遇到复杂推理、跨模态理解或需要综合判断的环节，再调用更强的模型。我希望用同一组评测比较结果质量、延迟和成本，判断哪些地方值得投入更多算力。
 模型选型与多模态智能体
 - 中文情感分析蒸馏 · 用教师大模型标注中文评论，再通过 LoRA 微调 4B 学生模型。在同一组 200 条人工标注的留出样本上，学生模型的 macro-F1 为 0.771，教师为 0.764，TF-IDF + LinearSVC 基线为 0.565。学生的估算 API 成本约为教师的 1/6。
