@@ -12,6 +12,9 @@ Research and learning tools
 - Concept Lab — Small, runnable experiments for learning computer science, machine learning, and AI infrastructure.
 - Cryptographic Algorithm Implementations — C implementations of common encryption and hashing algorithms, with tests and performance comparisons.
 - DSH Fairy Mode — A DeepSeek Harness extension built on an existing project, with a switchable theme, chat styles, web search, and optional read-aloud.
+
+
+  
 我希望把算力用在最需要的地方。任务明确时，我优先用规则、检索或轻量模型。遇到复杂推理，或需要结合文字、图像、音频和视频理解的任务时，再调用更强的模型。我会比较效果、速度和成本，判断多花的算力是否值得。
 模型选型与多模态智能体
 - 中文情感分析蒸馏 · 用大模型标注中文评论，再训练小模型做情感分类。两者在同一批人工标注的测试样本上表现接近，小模型的估算调用成本更低。
