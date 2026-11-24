@@ -1,12 +1,15 @@
 My goal is to match computing power to the task. I use rules, search, or smaller models for straightforward steps and turn to stronger models for complex reasoning or tasks that combine text, images, audio, and video. I compare quality, speed, and cost to decide when the extra computing power is worth it.
+
 Model efficiency and multimodal agents
 - Teacher–Student Chinese Sentiment Analysis — Trained a smaller model to classify Chinese reviews using labels from a larger model. On the same human-labeled test set, the two performed similarly, and the smaller model had a lower estimated API cost.
 - Cross-Platform Social Agent — Connects WeChat, QQ, Bilibili, and Douyin through a shared assistant that remembers where and when it learned something.
 - Multimodal Game Agent — Reads game screens, plans actions, and checks them before execution. The workflow runs in simulation, with full device testing still pending.
+
 AI and systems security
 - AI-Assisted Cryptographic Code Auditor — Combines rules and a fine-tuned model to flag common mistakes in how Python code uses cryptography.
 - Prompt Injection Defense Evaluation — Tests whether safeguards prevent information leaks while allowing normal requests through.
 - LinkGuard Defense Simulation — Simulates a Windows file system defense that blocks suspicious link-following behavior while allowing normal file operations.
+
 Research and learning tools
 - Paper Library & Knowledge Vector Library — A bilingual paper index and a search engine that helps users find relevant passages and trace them back to their sources.
 - Concept Lab — Small, runnable experiments for learning computer science, machine learning, and AI infrastructure.
